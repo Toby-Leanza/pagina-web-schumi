@@ -35,37 +35,7 @@ header {
     90% { transform: translate(-2px, 0); }
     100% { transform: translate(0, 0); }
   }
-  table {
-    border-collapse: collapse;
-    width: 80%;
-    margin: 20px auto 0;
-    border: 2px solid black;
-  }
   
-  th, td {
-    font-family: Arial, sans-serif;
-    border: 1px solid black;
-    padding: 8px;
-    text-align: left;
-  }
-  
-  th {
-    background-color: #e6e6f6;
-    color: #111155;
-    border: 2px solid black;
-  }
-  td{
-    background-color: #f5f5ff;
-    border: 1px solid black;
-  }
-  table img {
-      max-width: 100px;
-      height: auto;
-      transition: filter 0.3s;
-  }
-  table img:hover {
-      filter: grayscale(90%);
-  }
   img {
     cursor: pointer;
   }
