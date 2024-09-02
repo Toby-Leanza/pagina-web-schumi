@@ -10,19 +10,20 @@ header h1 {
 
 header img {
   margin-left: auto;
-  width: 55px;
-  height: 55px;
+  width: 70px;
+  height: 70px;
 }
 
 header {
   border: 5px solid #460000;
   border-radius: 5em;
   background-color: #912727;
-  color: #FFB1B8;
+  color: #FFFFFF;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 5px;
+  padding: 3px;
+  margin-top: 2rem;
 }
 
 header img:hover {
@@ -78,28 +79,23 @@ header img:hover {
 table {
   border-collapse: collapse;
   width: 95%;
-  margin: 25px auto 0;
-  border: 0.25em solid #FFB1B8;
+  margin: 2rem auto;
 }
 
 th, td {
   font-family: DynaPuff;
   font-size: x-large;
-  padding: 1rem;
+  padding: 0.5rem;
   text-align: center;
-  border: 0.25em solid #FFB1B8;
+  border: 0.25em solid #460000;
 }
 
 th {
   background-color: #ffd1b1;
-  color: black;
-  border: 0.25em #FFB1B8;
-  height: 2.5em;
 }
 
 td {
   background-color: #b1dfff;
-  border: 0.25em solid #FFB1B8;
 }
 
 table img {
@@ -117,23 +113,7 @@ img {
 }
 
 body {
-  height: 50vh;
-  width: 100%;
+  width: auto;
   background: linear-gradient(to bottom right, #ff2d00, #F27625, #F2DD25, #3BF225, #25F2DD);
-  background-size: 300% 300%;
-  animation: color 12s ease-in-out infinite;
-}
-
-@keyframes color {
-  0% {
-    background-position: 0 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0 50%;
-  }
+  background-size: 350% 350%;
 }
