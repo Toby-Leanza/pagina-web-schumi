@@ -83,25 +83,30 @@ table {
 }
 
 th, td {
-  font-family: DynaPuff;
-  font-size: x-large;
+  font-family: Teko;
+  font-size: xx-large;
   padding: 0.5rem;
   text-align: center;
-  border: 0.25em solid #460000;
+  border: 0.15em solid #460000; 
 }
 
 th {
-  background-color: #ffd1b1;
+  background-color: #885353;
 }
 
 td {
-  background-color: #b1dfff;
+  background-color: #78baba;  
 }
 
 table img {
-  max-width: 100px;
+  max-width: 100px;   
   height: auto;
   transition: filter 0.3s;
+  border-radius: 50%;
+  border: 3px solid #460000;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; 
 }
 
 table img:hover {
@@ -114,6 +119,8 @@ img {
 
 body {
   width: auto;
-  background: linear-gradient(to bottom right, #ff2d00, #F27625, #F2DD25, #3BF225, #25F2DD);
+  background: #279191;
   background-size: 350% 350%;
 }
+
+
